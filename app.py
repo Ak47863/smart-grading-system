@@ -23,7 +23,7 @@ st.set_page_config(
 
 st.sidebar.header("UI & Color Settings")
 
-primary_color = st.sidebar.color_picker("Primary Theme Color", "#b41f44")
+primary_color = st.sidebar.color_picker("Primary Theme Color", "#581fb4")
 hist_color = st.sidebar.color_picker("Histogram Color", "#5A21DD")
 bell_color = st.sidebar.color_picker("Bell Curve Color", "#E9253F")
 bar_color = st.sidebar.color_picker("Bar Chart Color", "#E7196F")
