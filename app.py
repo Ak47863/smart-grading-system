@@ -24,9 +24,9 @@ st.set_page_config(
 st.sidebar.header("UI & Color Settings")
 
 primary_color = st.sidebar.color_picker("Primary Theme Color", "#1f77b4")
-hist_color = st.sidebar.color_picker("Histogram Color", "#4CAF50")
-bell_color = st.sidebar.color_picker("Bell Curve Color", "#FF9800")
-bar_color = st.sidebar.color_picker("Bar Chart Color", "#2196F3")
+hist_color = st.sidebar.color_picker("Histogram Color", "#5A21DD")
+bell_color = st.sidebar.color_picker("Bell Curve Color", "#E9253F")
+bar_color = st.sidebar.color_picker("Bar Chart Color", "#1BB17F")
 pass_color = st.sidebar.color_picker("Pass Highlight Color", "#DFF5E1")
 risk_color = st.sidebar.color_picker("At-Risk Highlight Color", "#FFD6D6")
 
