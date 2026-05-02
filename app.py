@@ -128,15 +128,15 @@ def assign_grade_normal(score, mean, std):
     elif score >= mean + 1.0 * std:
         return "A-"
     elif score >= mean + 0.5 * std:
-        return "B+"
-    elif score >= mean:
         return "B"
-    elif score >= mean - 0.5 * std:
+    elif score >= mean:
         return "B-"
-    elif score >= mean - 1.0 * std:
-        return "C+"
-    elif score >= mean - 1.5 * std:
+    elif score >= mean - 0.5 * std:
         return "C"
+    elif score >= mean - 1.0 * std:
+        return "C-"
+    elif score >= mean - 1.5 * std:
+        return "D"
     else:
         return "F"
 
