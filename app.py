@@ -11,7 +11,7 @@ from io import BytesIO
 # -------------------------------------------------
 
 st.set_page_config(
-    page_title="Smart Automated Grading System",
+    page_title="CS163 Smart Automated Grading System",
     layout="wide"
 )
 
