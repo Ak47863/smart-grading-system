@@ -33,7 +33,7 @@ risk_color = st.sidebar.color_picker("At-Risk Highlight Color", "#CF1C94")
 st.markdown(
     f"""
     <h1 style='text-align:center; color:{primary_color};'>
-        Smart Automated Grading System
+        CS163 Smart Automated Grading System
     </h1>
     """,
     unsafe_allow_html=True
